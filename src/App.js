@@ -17,15 +17,16 @@ function App() {
   //Utilizar etiqueta de apertura y etiquetas de cierre
   return (
     <div className="App">
+      <Header nombre="Mike" ciudad="Veracruz" />
       <p>Hola Mundo</p>
       <p>dulceFa</p>
       <p>{6 + 6}</p>
       <p>{12 * 12}</p>
       <p>{bootcamp}</p>
       {/* props:Pasar info entre componentes  */}
-      <Header nombre="Mike" ciudad="Veracruz" />
-      <Header nombre="Sam" ciudad="EdoMex" />
-      <Header nombre="Konin" ciudad="Hidalgo" />
+
+      {/* <Header nombre="Sam" ciudad="EdoMex" />
+      <Header nombre="Konin" ciudad="Hidalgo" /> */}
       <hr />
 
       <Main />
